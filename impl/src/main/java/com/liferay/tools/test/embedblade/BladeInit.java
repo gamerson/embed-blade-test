@@ -22,15 +22,14 @@ public class BladeInit {
 	  InitArgs initArgs;
 	try {
 		BladeCLI bladeCLI = new BladeCLI();
-		  
 		  InitCommand initCommand = new InitCommand();
 		  initArgs = new InitArgs();
-		  initArgs.setBase(Files.createTempDirectory("init").toFile());
+		  bladeCLI.getBladeArgs().setBase(Files.createTempDirectory("init").toFile());
 		  initCommand.setArgs(initArgs);
 		  initCommand.setBlade(bladeCLI);
 		  
 		  initCommand.execute();
-		  System.out.println("Created new workspace in " + initArgs.getBase());
+		  System.out.println("Created new workspace in " + bladeCLI.getBladeArgs().getBase());
 	}
 	catch (Exception e) {
 		e.printStackTrace();

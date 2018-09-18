@@ -7,7 +7,12 @@ Import-Package:\
 	!groovy.*,\
 	!javax.*,\
 	!net.*,\
-	!org.apache.*,\
+	!org.apache.commons.*,\
+	!org.apache.log.*,\
+	!org.apache.log4j.*,\
+	!org.apache.maven.*,\
+	!org.apache.oro.*,\
+	!org.apache.tools.*,\
 	!org.codehaus.*,\
 	!org.dom4j.*,\
 	!org.eclipse.*,\
