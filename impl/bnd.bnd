@@ -1,0 +1,21 @@
+-includeresource: @com.liferay.blade.cli-*.jar
+Import-Package:\
+	!aQute.*,\
+	!com.esotericsoftware.*,\
+	!com.google.*,\
+	!com.werken.*,\
+	!groovy.*,\
+	!javax.*,\
+	!net.*,\
+	!org.apache.*,\
+	!org.codehaus.*,\
+	!org.dom4j.*,\
+	!org.eclipse.*,\
+	!org.gjt.*,\
+	!org.gradle.*,\
+	!org.jaxen.*,\
+	!org.jdom.*,\
+	!org.mozilla.*,\
+	!org.slf4j.*,\
+	!org.xmlpull.*,\
+	*

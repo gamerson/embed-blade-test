@@ -27,6 +27,11 @@
             <artifactId>test-bundles</artifactId>
             <type>pom</type>
         </dependency>
+        <dependency>
+            <groupId>com.liferay.blade</groupId>
+            <artifactId>com.liferay.blade.cli</artifactId>
+            <version>3.1.2</version>
+        </dependency>
     </dependencies>
     
     <build>
